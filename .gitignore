@@ -1,0 +1,31 @@
+# uni-app buid
+# 以叹号 ! 表示不忽略(跟踪)匹配到的文件或目录
+# 注意项 要忽略的文件夹一定要结尾 /* ，否则不忽略规则将无法生效
+# 忽略unpackage目录下的所有文件
+/unpackage/*
+# 不忽略unpackage目录下 res目录
+# 在已忽略的文件夹中不忽略指定文件夹
+!/unpackage/res
+.hbuilderx
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+*.local
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

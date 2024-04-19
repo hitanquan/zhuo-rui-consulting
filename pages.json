@@ -1,0 +1,75 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/JobConsultation/JobConsultation",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/JobSearchCourse/JobSearchCourse",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/personalCenter/personalCenter",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"disableScroll": true,
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#666",
+		"selectedColor": "#00447D",
+		"borderStyle": "white",
+		"backgroundColor": "#FFF",
+		"list": [{
+				"text": "求职岗位",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabBar/home1.png",
+				"selectedIconPath": "static/tabBar/home.png"
+			},
+			{
+				"text": "求职咨询",
+				"pagePath": "pages/JobConsultation/JobConsultation",
+				"iconPath": "static/tabBar/job1.png",
+				"selectedIconPath": "static/tabBar/job.png"
+			},
+			{
+				"text": "求职课程",
+				"pagePath": "pages/JobSearchCourse/JobSearchCourse",
+				"iconPath": "static/tabBar/jobWanted1.png",
+				"selectedIconPath": "static/tabBar/jobWanted.png"
+			},
+			{
+				"text": "个人中心",
+				"pagePath": "pages/personalCenter/personalCenter",
+				"iconPath": "static/tabBar/user1.png",
+				"selectedIconPath": "static/tabBar/user.png"
+			}
+		]
+	}
+}
